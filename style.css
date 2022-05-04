@@ -1,0 +1,43 @@
+body {
+    background-color: #ff7f50;
+}
+.container {
+    background-color: black;
+    border: 10px solid azure;
+    height: 400px;
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    top: 25%;
+}
+
+
+#btn {
+    margin: 50px auto;
+    height: 100px;
+    width: 250px;
+    font-size: 22px;
+    background-color: azure;
+    border: 5px solid #ff7f50;
+    border-radius: 10px;
+    text-decoration: none;
+    box-shadow: 0px 4px;
+    background-size: 4px 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#btn:hover {
+    cursor: pointer;
+    background-color: #ff7f50;
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+
+#output {
+    padding: 20px;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: azure;
+}
